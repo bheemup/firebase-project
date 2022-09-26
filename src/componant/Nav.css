@@ -1,0 +1,37 @@
+  .nav{
+
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    background-image: linear-gradient(144deg,#c5a1df, #8f82df 50%,#00DDEB);    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+ .nav a{
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .inner{
+    display: flex;
+    gap: 30px;
+ }
+ .nav a:hover{
+  color: #0f1610;
+  font-weight: bold;
+ }
+ .sub{
+   display: flex;
+  padding-right: 10PX;
+ }
+ .sub img{
+   height: 30px;
+
+ }
+ .sub p{
+   margin: 7px;
+   
+ }
